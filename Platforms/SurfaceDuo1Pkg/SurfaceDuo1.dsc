@@ -24,7 +24,6 @@
   BUILD_TARGETS                  = DEBUG|RELEASE
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = SurfaceDuo1Pkg/SurfaceDuo1.fdf
-  SECURE_BOOT_ENABLE             = 1
   USE_PHYSICAL_TIMER             = 1
   USE_SCREEN_FOR_SERIAL_OUTPUT   = 0
   USE_MEMORY_FOR_SERIAL_OUTPUT   = 0
@@ -35,12 +34,9 @@
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x180000000        # 6GB Size
 
   # Smbios Info
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Xiaomi"
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pad 5"
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"nabu"
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 860 @ 2.96 GHz"
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM8150-AC"
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"K82"
 
   # Simple FrameBuffer
